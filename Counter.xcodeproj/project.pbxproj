@@ -13,7 +13,7 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		321E1AB02E3DE7210003BC81 /* WannaCount */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WannaCount;
+			path = ".";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 321E1AA92E3DE7210003BC81 /* Build configuration list for PBXProject "WannaCount" */;
+			buildConfigurationList = 321E1AA92E3DE7210003BC81 /* Build configuration list for PBXProject "Counter" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -330,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		321E1AA92E3DE7210003BC81 /* Build configuration list for PBXProject "WannaCount" */ = {
+		321E1AA92E3DE7210003BC81 /* Build configuration list for PBXProject "Counter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				321E1AB72E3DE7210003BC81 /* Debug */,

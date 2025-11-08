@@ -1,6 +1,6 @@
 //
-//  CounterApp.swift
-//  Counter
+//  WannaCountApp.swift
+//  wanna count
 //
 //  Created by Vikas Raj Yadav on 02/08/25.
 //
@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct CounterApp: App {
+struct WannaCountApp: App {
     var body: some Scene {
         WindowGroup {
             GlassButton()
         }
     }
 }
+

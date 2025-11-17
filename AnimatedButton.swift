@@ -21,7 +21,7 @@ struct AnimatedButton: View {
                     .font(.system(size: 16, weight: .regular, design: .monospaced))
                     .foregroundColor(Color.glassyButtonFill)
                     .shadow(color: .black.opacity(0.1), radius: 1, y: 1)
-                    .contentTransition(.numericText(countsDown: false))
+                    .contentTransition(.numericText())
                     .animation(
                         .spring(
                             response: ButtonConfig.springResponse,
@@ -79,3 +79,8 @@ struct AnimatedButton: View {
     }
 }
 
+
+
+#Preview{
+    AnimatedButton(text: "this")
+}
